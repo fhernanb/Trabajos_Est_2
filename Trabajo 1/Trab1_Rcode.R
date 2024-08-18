@@ -2,7 +2,7 @@
 if(!require(leaps)){install.packages("leaps"); library(leaps)}
 
 # Carga de funciones de usuario para RLM
-source("funciones.R")
+source("https://raw.githubusercontent.com/fhernanb/Repo_curso_estadistica_2/main/Funciones/funciones.R")
 
 # Lectura de la base de datos asignada 'EquipoXX.txt' a traves del comando file.choose()
 base <- read.table(file.choose(), header = T)
